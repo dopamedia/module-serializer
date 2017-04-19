@@ -1,0 +1,24 @@
+{
+    "name": "dopamedia/module-serializer",
+    "description": "Magento2 Serializer Module",
+    "type": "magento2-module",
+    "license": [
+        "proprietary"
+    ],
+    "authors":[
+        {
+            "name":"Andreas Penz",
+            "email":"office@dopa.media"
+        }
+    ],
+    "require": {
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Dopamedia\\Serializer\\": ""
+        }
+    }
+}
