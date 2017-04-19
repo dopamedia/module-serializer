@@ -12,6 +12,7 @@
         }
     ],
     "require": {
+        "symfony/serializer": "v3.1.10"
     },
     "autoload": {
         "files": [
